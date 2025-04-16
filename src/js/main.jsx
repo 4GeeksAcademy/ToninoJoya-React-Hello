@@ -11,14 +11,12 @@ import '../styles/index.css'
 
 // components
 import Home from './components/Home';
-import { Navbar } from './components/Navbar';
-import { Cards } from './components/Cards';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
-    <Navbar/>
+    
     <Home/>
-    <Cards/>
+
   </>
 )
